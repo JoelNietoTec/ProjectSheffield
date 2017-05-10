@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-md-2">
+    <div class="card card-outline-primary">
+      <img class="card-img-top img-fluid" src="assets/img/batman.png" alt="">
+      <div class="card-block">
+        <h4 class="card-title">Joel Nieto <small class="text-muted">9°D</small></h4>
+        <p class="card-text">Grade: 4.9</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="container">
+      <ngb-tabset type="pills" justify="center">
+        <ngb-tab>
+          <ng-template ngbTabTitle><i class="fa fa-book" aria-hidden="true"></i> Homeworks</ng-template>
+          <ng-template ngbTabContent>
+            <div class="container">
+              <app-homework-list></app-homework-list>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</ng-template>
+          <ng-template ngbTabContent>
+            <p>Content 2</p>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+
+  </div>
+</div>
