@@ -1,7 +1,7 @@
-<div class="row">
+<div class="row animated fadeIn">
   <div class="col-md-2">
-    <div class="card card-outline-primary">
-      <img class="card-img-top img-fluid" src="assets/img/batman.png" alt="">
+    <div class="card card-outline-primary text-center" id="user-card">
+      <img class="card-img-top img-fluid img-circle" src="assets/img/batman.png" alt="">
       <div class="card-block">
         <h4 class="card-title">Joel Nieto <small class="text-muted">9°D</small></h4>
         <p class="card-text">Grade: 4.9</p>
@@ -23,6 +23,12 @@
           <ng-template ngbTabTitle><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</ng-template>
           <ng-template ngbTabContent>
             <p>Content 2</p>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle><i class="fa fa-star" aria-hidden="true"></i> Grades</ng-template>
+          <ng-template ngbTabContent>
+            <p>Content 3</p>
           </ng-template>
         </ngb-tab>
       </ngb-tabset>
