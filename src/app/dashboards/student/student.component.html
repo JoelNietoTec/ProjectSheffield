@@ -22,7 +22,8 @@
         <ngb-tab>
           <ng-template ngbTabTitle><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</ng-template>
           <ng-template ngbTabContent>
-            <p>Content 2</p>
+            <mwl-calendar-month-view [viewDate]="viewDate" [events]="events">
+            </mwl-calendar-month-view>
           </ng-template>
         </ngb-tab>
         <ngb-tab>
